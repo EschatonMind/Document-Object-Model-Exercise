@@ -1,0 +1,11 @@
+.blue {
+    padding: 10px;
+    color:blue;
+    border: 1px dotted rgb(12, 247, 247);
+}
+
+.red {
+    padding: 10px;
+    color:rgb(255, 0, 0);
+    border: 1px dotted rgb(247, 243, 12);
+}

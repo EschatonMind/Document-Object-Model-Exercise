@@ -61,3 +61,13 @@ const mssg = document.querySelector('p')
 console.log(mssg.getAttribute('class'))
 mssg.setAttribute('class', 'S')
 mssg.setAttribute('style', 'color: green')
+
+// changing the appearance of elements
+const tds = document.querySelectorAll('td')
+tds.forEach(td => {
+    if(td.textContent.includes('blue')){
+        td.classList.add('blue')
+    }else if(td.textContent.includes('red')){
+        td.classList.add('red')
+    }
+})
